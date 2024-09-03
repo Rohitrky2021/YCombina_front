@@ -6,8 +6,8 @@ import {  Position } from 'reactflow';
 export const OutputNode = (props) => {
   const nodeType = {
     label: 'Output Node',
-    bgColorStart: 'orange-400',
-    bgColorEnd: 'pink-500',
+    bgColorStart: 'from-orange-400',
+    bgColorEnd: 'to-pink-500',
     borderColor: 'orange-600',
     hasNameInput: true,
     hasTypeSelect: true,

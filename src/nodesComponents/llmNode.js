@@ -6,8 +6,8 @@ import {  Position } from 'reactflow';
 export const LLMNode = (props) => {
   const nodeType = {
     label: 'LLM Node',
-    bgColorStart: 'green-400',
-    bgColorEnd: 'teal-600',
+    bgColorStart: 'from-green-400',
+    bgColorEnd: 'to-teal-600',
     borderColor: 'green-700',
     hasNameInput: false,
     hasTypeSelect: false,

@@ -16,7 +16,7 @@ export const BaseNode = ({ id, data, nodeType, handleType, handleOptions }) => {
   };
 
   return (
-    <div className={`w-52 h-45 p-4 bg-gradient-to-r from-${nodeType.bgColorStart} to-${nodeType.bgColorEnd} border-2 border-${nodeType.borderColor} rounded-lg shadow-xl text-white`}>
+    <div className={`w-52 h-45 p-4 bg-gradient-to-r ${nodeType.bgColorStart} ${nodeType.bgColorEnd} border-2 border-${nodeType.borderColor} rounded-lg shadow-xl text-white`}>
       <div className="font-bold mb-2 text-lg">
         <span>{nodeType.label}</span>
       </div>

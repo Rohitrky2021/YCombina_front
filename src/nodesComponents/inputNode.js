@@ -6,8 +6,8 @@ import {  Position } from 'reactflow';
 export const InputNode = (props) => {
   const nodeType = {
     label: 'Input Node',
-    bgColorStart: 'blue-500',
-    bgColorEnd: 'purple-600',
+    bgColorStart: 'from-blue-500',
+    bgColorEnd: 'to-purple-600',
     borderColor: 'blue-700',
     hasNameInput: true,
     hasTypeSelect: true,
